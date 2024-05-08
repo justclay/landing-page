@@ -6,53 +6,78 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<div class="wrapper">
     <body>
-        <header>
-            <img src="/images/logo.png" id="logo" />
-            <menu>
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-            </menu>
-        </header>
-        <div class="splash">
-            <div>
-                <h1>Title</h1>
-                <h3>This is a bunch of subtext</h3>
+            <header>
+                <div class="nav">
+                    <div class="logo">
+                        <!-- <img src="/images/logo.png" id="logo"  /> -->
+                        <p>Logo Text</p>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#">One</a></li>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div class="hero">
+                <div>
+                    <h1>This Website is<br>Awesome</h1>
+                    <div class="subtext">This website has some subtext that goes here under the<br>
+                         main title. It's a smaller font and the color is lower contrast.</div><br>
+                    <button>Sign Up</button>
+                </div>
+                <div>
+                    <img src="/images/splash.png"/>
+                </div>
             </div>
-            <div>
-                <img src="/images/splash.png"/>
+            <div class="gallery">
+                <div>
+                    <h1 class="gallery-title">Gallery</h1>
+                </div>
+                <div class="boxes">
+                    <div>
+                        <img src="/images/gal1.png" alt="alt description" />
+                            <p>Images descriptions</p>
+                    </div>
+                    <div>
+                        <img src="/images/gal1.png" alt="alt description" />
+                            <p>Images descriptions</p>
+                    </div>
+                    <div>
+                        <img src="/images/gal1.png" alt="alt description" />
+                            <p>Images descriptions</p>
+                    </div>
+                    <div>
+                        <img src="/images/gal1.png" alt="alt description" />
+                            <p>Images descriptions</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="gallery">
-            <h1 class="gallery-title">Gallery</h1>
-            <ul>
-                <li class="one">One</li>
-                    <p>Image text below</p>
-                <li class="two">two</li>
-                    <p>Image text below</p>
-                <li class="three">three</li>
-                    <p>Image text below</p>
-                <li class="four">four</li>
-                    <p>Image text below</p>
-            </ul>
-
-        </div>
-        <div class="quote">
-            <p>This is a fancy paragraph of text that is a very important quote"</p>
-
-        </div>
-        <div class="cta">
-            <div>
-                <h3>Call to Action</h3> 
-                <p>This is a call to action subtitle</p>
+            <div class="quote">
+                <div class="quote-box">
+                    <p>"This is a fancy paragraph of text that is a very important quote. Maybe it's
+                    just filling up space, or maybe people will actually read it. Who knows? All I know
+                    is that it looks nice.
+                    </p>
+                    <p class="signature">-Thor, God of Thunder</p>
+                </div>
             </div>
-            <div>
-                <button>Click this</button>
+            <div class="cta">
+                <div class="cta-box">
+                   <div> 
+                        <h3>Call to action! It's time!</h3>
+                        <p>Sign up for our product by clicking the button to the right!</p>
+                    </div>
+                    <div>
+                        <button>Sign Up</button>
+                    </div>
+                    
+                </div>
             </div>
-        </div>
-
-    </body>
+        </body>
+    </div>
     <footer>
         <em>Copyright @ Landing Page 2024</em>
     </footer>
